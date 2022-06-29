@@ -57,7 +57,12 @@ dependencies {
     implementation "androidx.activity:activity-ktx:$activityVersion"
 
     // ViewModel
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$viewModelVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1"
+
+    //Lifecycle runtime
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1"
+
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
 
     // Coroutines
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0'
